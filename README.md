@@ -31,24 +31,8 @@ Features
 * Easy to implement
 * Simple but intuitive API
 
-Dependency
-----------
 
-*material-about-library* is available on [**jitpack.io**][1]
 
-**Gradle dependency:**
-```gradle
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
-```gradle
-dependencies {
-    compile 'com.github.daniel-stoneuk:material-about-library:1.1.1'
-}
-```
 
 Setup
 -----
@@ -146,36 +130,3 @@ Check out a working example in [`ExampleMaterialAboutActivity.java`][3].
 
 **Tip:** You can either use *Strings* / *Drawables* or *Resources* when creating `MaterialAboutItem`'s
 
-License
--------
-
-    Copyright 2016 Daniel Stone
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-[1]: https://jitpack.io
-[2]: http://i.imgur.com/2d63NFS.png
-[3]: https://github.com/daniel-stoneuk/material-about-library/blob/master/app/src/main/java/com/danielstone/materialaboutlibrarydemo/ExampleMaterialAboutActivity.java
-[4]: http://i.imgur.com/1k4rcN7.png
-[5]: https://play.google.com/store/apps/details?id=com.danielstone.energyhive
-[6]: https://github.com/HeinrichReimer/open-source-library-request-manager/issues/3
-[7]: https://github.com/daniel-stoneuk/material-about-library/blob/master/library/src/main/java/com/danielstone/materialaboutlibrary/MaterialAboutActivity.java
-[8]: https://github.com/daniel-stoneuk/material-about-library/blob/ce35cdc99d33af1faf40c7a1cddf2889898be4e7/library/src/main/java/com/danielstone/materialaboutlibrary/model/MaterialAboutCard.java
-[9]: https://github.com/daniel-stoneuk/material-about-library/blob/ce35cdc99d33af1faf40c7a1cddf2889898be4e7/library/src/main/java/com/danielstone/materialaboutlibrary/model/MaterialAboutTitleItem.java
-[10]: https://github.com/daniel-stoneuk/material-about-library/blob/ce35cdc99d33af1faf40c7a1cddf2889898be4e7/library/src/main/java/com/danielstone/materialaboutlibrary/model/MaterialAboutActionItem.java
-[11]: https://github.com/daniel-stoneuk/material-about-library/blob/ce35cdc99d33af1faf40c7a1cddf2889898be4e7/library/src/main/java/com/danielstone/materialaboutlibrary/model/MaterialAboutList.java
-
-[101]: https://jitpack.io/v/daniel-stoneuk/material-about-library.svg
-[102]: https://jitpack.io/#daniel-stoneuk/material-about-library
-[103]: https://img.shields.io/github/license/HeinrichReimer/material-intro.svg
-[104]: https://www.apache.org/licenses/LICENSE-2.0.html
